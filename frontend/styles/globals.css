@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: theme('fontFamily.open-sans'), sans-serif;
+    background-color: theme('colors.dark');
+    color: #eee;
+}
+
+img {
+    user-select: none;
+    pointer-events: none;
+}
+
+input::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}
+
