@@ -1,5 +1,3 @@
-# Polizei Zeitung
-
 ![Showcase Image](https://i.ibb.co/gb20Xk0/Screenshot-2024-04-20-073408.png)
 
 Your platform for anonymous tips on criminals, missing persons and the latest police reports in Germany. This project utilizes scraping technology to scrape the latest missing and wanted persons from german police websites. Tech stack: Node.js, Next.js, MongoDB & Docker.
