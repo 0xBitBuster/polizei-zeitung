@@ -11,7 +11,7 @@ cron.schedule("*/30 * * * *", () => {
     scrapeAllNews();
 });
 
-// Crawl news, every 1 day
+// Delete old news, every 1 day
 cron.schedule("0 0 * * *", () => {
     deleteOldNews();
     deleteOldPersons();
